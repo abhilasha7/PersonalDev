@@ -1,0 +1,69 @@
+<apex:page sidebar="false" controller="treenodes" showheader="false">
+<apex:form >
+<!-- Include the Jquery Script files -->
+    <link rel="stylesheet" href="{!URLFOR($Resource.Jtreeview,'Jquerytreeview/jquery.treeview.css')}"/>
+    <script src="{!URLFOR($Resource.Jtreeview,'Jquerytreeview/jquery.js')}" type="text/javascript"></script>
+    <script src="{!URLFOR($Resource.Jtreeview,'Jquerytreeview/jquery.cookie.js')}" type="text/javascript"></script>
+    <script src="{!URLFOR($Resource.Jtreeview,'Jquerytreeview/jquery.treeview.js')}" type="text/javascript"></script>
+<!-- End of Javascript files -->
+<script type="text/javascript">
+        $(function() {
+            $("#tree").treeview({
+                collapsed: true,
+                animated: "medium",
+                control:"#sidetreecontrol",
+                persist: "location"
+            });
+        })
+</script>
+<br/> <br/> <br/>
+<!-- Tree -->
+<table border="1">
+    <tr>
+    <td>
+        <div class="treeheader" style="height:0px;">&nbsp;</div>
+        <div id="sidetreecontrol"><a href="?#"><font style="color:blue;">Collapse All</font></a> | <a href="?#"><font style="color:blue;">Expand All</font></a></div>
+        <ul id="tree">
+            <apex:repeat value="{!mainnodes}" var="parent">
+                <!-- <li><strong><apex:outputtext style="color:blue;" escape="false" value="{!parent.gparent.Name}"/></strong> -->
+                <li><strong>
+                <!-- <apex:outputLink value="/{!parent.gparent.ID}" style="color:blue;">{!parent.gparent.Name}</apex:outputLink> -->
+                <apex:commandLink value="{!parent.gparent.Name}" style="color:blue;"/>
+                </strong>
+                <ul>
+                    <apex:repeat value="{!parent.parent}" var="child">
+                        <li><span class="formattextcon">
+                            <!-- <apex:outputtext style="color:green;" escape="false" value="{!child.LastName}"/> -->
+                            <apex:outputLink value="{!child.LastName}" style="color:green;">{!child.LastName}</apex:outputLink>
+                                 
+                            </span>
+                            <ul>
+                                <apex:repeat value="{!child.Cases}" var="gchildren">
+                                    <li> <span class="formattextcon"> 
+                                    <!-- <apex:outputtext escape="false" style="color:red;" value="{!gchildren.CaseNumber}"/> -->
+                                        <apex:outputLink value="{!gchildren.CaseNumber}" style="color:red;">{!gchildren.CaseNumber}</apex:outputLink>
+                                        <b>||</b> &nbsp;
+                                        <apex:outputtext escape="false" value="{!gchildren.Subject}"/> 
+                                        </span> 
+                                    </li>
+                                </apex:repeat>
+                            </ul>       
+                       </li>
+                   </apex:repeat>  
+                 </ul>  
+                </li>
+           </apex:repeat>
+        </ul>
+        </td>
+        <td>Find the details below:
+            <br></br>
+             <apex:repeat value="{!mainnodes}" var="parent">
+                <!-- <apex:detail subject="{!parent.gparent.Id}" id="showDetail"/> -->
+                <!-- <apex:detail subject="{!parent.gparent.Id}" relatedList="false" title="false"/> -->
+            </apex:repeat>
+         </td>
+    </tr>
+</table>    
+<!-- End of Tree --> 
+</apex:form>
+</apex:page>

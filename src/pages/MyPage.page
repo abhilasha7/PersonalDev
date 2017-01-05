@@ -1,0 +1,9 @@
+<apex:page StandardController="Opportunity">
+    <apex:form >
+        <apex:pageBlock title="MyPage" mode="detail">
+            <h1> Lets try something new today !! </h1>
+            
+        </apex:pageBlock>
+        <apex:detail />
+    </apex:form>
+</apex:page>

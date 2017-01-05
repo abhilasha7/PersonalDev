@@ -1,0 +1,89 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "AccListController",
+            "parameters": [
+                {
+                    "name": "controller",
+                    "type": "StandardSetController"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p90000006aDxeAAE",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000006aDxeAAE",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 21
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getAccountList",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "AccListController",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 9
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "setCon",
+            "references": [],
+            "type": "StandardSetController"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "AccListController",
+        "references": [],
+        "type": "AccListController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "StandardSetController"
+        }
+    ]
+}

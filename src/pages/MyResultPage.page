@@ -1,0 +1,20 @@
+<apex:page controller="MyResultPageController">
+    <apex:form >
+        <apex:selectList id="Objects" multiselect="true" value="{!Objects}">
+            <apex:selectOptions id="options" value="{!options}"></apex:selectOptions>
+            <apex:actionSupport action="{!getData}" event="onChange"/>
+        </apex:selectList><p/>
+        
+        <apex:commandButton action="{!Results}" value="Get Data"/>
+     </apex:form><p/>
+    
+    <apex:pageBlock >
+        <apex:pageBlockSection collapsible="true">
+            <apex:pageBlockTable value="{!ListOfSelectedObjectRecords}" var="a">
+                <apex:column headerValue="Id">
+                    <apex:outputText value="{!a.Id}"/>
+                </apex:column>
+            </apex:pageBlockTable>
+        </apex:pageBlockSection>
+   </apex:pageBlock>
+</apex:page>

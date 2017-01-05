@@ -1,0 +1,274 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000006NJJnAAO",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 9,
+                        "line": 9
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "RestClientSpy",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 13
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "send",
+                    "parameters": [
+                        {
+                            "name": "httpRequest",
+                            "type": "HttpRequest"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "HttpResponse",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 21
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "getSendCount",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "Integer",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 21,
+                        "line": 25
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "getHttpRequest",
+                    "parameters": [],
+                    "references": [],
+                    "returnType": "HttpRequest",
+                    "type": null
+                }
+            ],
+            "name": "RestClientSpy",
+            "namespace": "zAbhi",
+            "parentClass": "zAbhi.RestClient",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 25,
+                        "line": 6
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "sendCount",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 7
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "httpRequest",
+                    "references": [],
+                    "type": "HttpRequest"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 19,
+                    "line": 4
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "RestClientSpy",
+                "references": [],
+                "type": "RestClientSpy"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 46,
+                        "line": 13
+                    },
+                    "modifiers": [],
+                    "name": "httpRequest",
+                    "references": [],
+                    "type": "HttpRequest"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p90000006NJJnAAO",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 30
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGet",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 40
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGetWithBodyThrowsRestException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 51
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testPost",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "RestClientTest",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 2
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "RestClientTest",
+        "references": [],
+        "type": "RestClientTest"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 31
+            },
+            "modifiers": [],
+            "name": "spy",
+            "references": [],
+            "type": "RestClientSpy"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 41
+            },
+            "modifiers": [],
+            "name": "spy",
+            "references": [],
+            "type": "RestClientSpy"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "spy",
+            "references": [],
+            "type": "RestClientSpy"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "expectedBody",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

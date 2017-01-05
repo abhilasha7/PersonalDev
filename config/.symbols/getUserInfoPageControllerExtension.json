@@ -1,0 +1,89 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 6
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getUserInfoPageControllerExtension",
+            "parameters": [
+                {
+                    "name": "controller",
+                    "type": "StandardController"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p90000005PXh2AAG",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000005PXh2AAG",
+    "methods": [],
+    "name": "getUserInfoPageControllerExtension",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 3
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "LoggedInUserId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "LoggedInUserName",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "getUserInfoPageControllerExtension",
+        "references": [],
+        "type": "getUserInfoPageControllerExtension"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 76,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "StandardController"
+        }
+    ]
+}

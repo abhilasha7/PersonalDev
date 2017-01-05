@@ -1,0 +1,142 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 8
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "ActivityHistoryController",
+            "parameters": [
+                {
+                    "name": "controller",
+                    "type": "StandardController"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p9000000108y1AAA",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p9000000108y1AAA",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 12
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getActHistory1",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 18
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getDelete_Record",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        }
+    ],
+    "name": "ActivityHistoryController",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 4,
+                "line": 4
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "recordid",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 5
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "act_list",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 6
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "delRec",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "ActivityHistoryController",
+        "references": [],
+        "type": "ActivityHistoryController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 21
+            },
+            "modifiers": [],
+            "name": "t",
+            "references": [],
+            "type": "Task"
+        }
+    ]
+}

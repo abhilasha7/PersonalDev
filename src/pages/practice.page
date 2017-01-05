@@ -1,0 +1,9 @@
+<apex:page showHeader="true" showChat="false" controller="PracticeClass">
+  <apex:form >
+      <apex:inputText value="{!theText}"/>
+      <apex:commandButton value="GO" action="{!action}" rendered="dynamic"/>
+  </apex:form>
+  <apex:outputPanel id="dynamic">
+      {!theText}
+  </apex:outputPanel>
+</apex:page>

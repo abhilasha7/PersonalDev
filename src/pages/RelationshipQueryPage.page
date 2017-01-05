@@ -1,0 +1,14 @@
+<apex:page id="pageId" standardController="Account" extensions="RelationshipQueryController">
+  
+    <h1>Relationship Query</h1>
+    fetching the list of all child records of a parent record
+    
+    <apex:form >
+        <apex:pageBlock id="pageBlockId"> 
+            <apex:pageBlockTable id="pageBlockTableId" value="{!RelatedContacts}" var="a">
+                <apex:column value="{!a.Name}"/>
+                <apex:column value="{!a.email}"/>
+            </apex:pageBlockTable> 
+        </apex:pageBlock>
+    </apex:form>      
+</apex:page>

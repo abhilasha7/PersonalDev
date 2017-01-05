@@ -1,0 +1,44 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000006PmG3AAK",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000006PmG3AAK",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 20
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "helloMethod",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "Abhiclass7",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 2
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "Abhiclass7",
+        "references": [],
+        "type": "Abhiclass7"
+    },
+    "variables": []
+}

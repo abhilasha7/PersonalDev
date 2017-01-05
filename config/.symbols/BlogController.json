@@ -1,0 +1,101 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 4
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "BlogController",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p90000000xsi3AAA",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000000xsi3AAA",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 7
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "saveBlog",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 14
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "LoadBlogs",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "BlogController",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 2
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "blog",
+            "references": [],
+            "type": "zAbhi__Blog__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "blogs",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "BlogController",
+        "references": [],
+        "type": "BlogController"
+    },
+    "variables": []
+}

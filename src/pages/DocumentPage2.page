@@ -1,0 +1,25 @@
+<apex:page StandardController="Document" extensions="DocumentController" >
+
+<apex:composition template="DocumentPage">
+<apex:define name="main">
+
+    <apex:pageblock >
+        <apex:pageBlockSection title="Documents">
+            <apex:pageBlockTable value="{!docList}" var="a">
+                <apex:column headerValue="Document Name">
+                <apex:outputField value="{!a.Name }"/>
+                 </apex:column>
+                 <apex:column headerValue="Download">
+                 <apex:outputLink value="https://c.ap1.content.force.com/servlet/servlet.FileDownload?file={!a.id}">download</apex:outputLink>
+                 </apex:column>
+
+            </apex:pageBlockTable>
+
+        </apex:pageBlockSection>
+    </apex:pageblock>
+    <apex:form >
+    <apex:commandButton action="{!AddNew}" value="NEW DOCUMENT"/>
+    </apex:form>
+</apex:define>
+</apex:composition>
+</apex:page>

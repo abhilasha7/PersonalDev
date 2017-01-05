@@ -1,0 +1,80 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 5
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "TestPageController",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p90000004FPwUAAW",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000004FPwUAAW",
+    "methods": [],
+    "name": "TestPageController",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "StatesAndCapitalsList",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "TestPageController",
+        "references": [],
+        "type": "TestPageController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "saC",
+            "references": [],
+            "type": "zAbhi__StatesAndCapitals__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 14
+            },
+            "modifiers": [],
+            "name": "CapitalOfGoa",
+            "references": [],
+            "type": "zAbhi__StatesAndCapitals__c"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+<apex:page standardController="Contact" extensions="CustomPicklistPage2Controller">
+    <apex:form >
+        <apex:PageBlock title="Practice custom picklist">
+            <apex:panelGrid columns="4">
+                Picklist Field 1 &nbsp;
+                <apex:selectList value="{!picklistField1Values}" multiselect="false" size="1">
+                    <apex:selectOption itemValue="value1" itemLabel="Value 1"/>
+                    <apex:selectOption itemValue="value2" itemLabel="Value 2"/>       
+                    <apex:selectOption itemValue="value3" itemLabel="Value 3"/>       
+                    <apex:selectOption itemValue="value4" itemLabel="Value 4"/>       
+                    <apex:selectOption itemValue="value5" itemLabel="Value 5"/>       
+                    <apex:selectOption itemValue="value6" itemLabel="Value 6"/>                    
+                </apex:selectList>
+            </apex:panelGrid>
+        </apex:PageBlock>
+    </apex:form> 
+</apex:page>

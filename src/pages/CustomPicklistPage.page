@@ -1,0 +1,22 @@
+<apex:page standardController="Account" extensions="CustomPicklistController" >
+    <apex:form >
+        <apex:pageBlock >
+            <apex:panelGrid columns="4">
+                
+                Select State &nbsp;
+                <apex:SelectList value="{!SelectedState}" multiselect="false" size="1">
+                    <apex:SelectOption itemValue="Delhi" itemLabel="Delhi"/>
+                    <apex:selectOption itemValue="Maharashtra" itemLabel="Maharashtra"/>
+                    <apex:selectOption itemValue="West Bengal" itemLabel="West Bengal"/>
+                </apex:SelectList>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Select City &nbsp;
+                <apex:selectList value="{!SelectedCity}" multiselect="false" size="1">
+                    <apex:selectOptions value="{!City}"/>
+                </apex:selectList>
+            
+            </apex:panelGrid>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

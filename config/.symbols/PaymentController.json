@@ -1,0 +1,113 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 6
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "PaymentController",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p90000000xj5KAAQ",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000000xj5KAAQ",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 14
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "SavePayment",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 24
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "createMember",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "PaymentController",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "payment",
+            "references": [],
+            "type": "zAbhi__Payment__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 5
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "paymentId",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "PaymentController",
+        "references": [],
+        "type": "PaymentController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "service",
+            "references": [],
+            "type": "MemberService"
+        }
+    ]
+}

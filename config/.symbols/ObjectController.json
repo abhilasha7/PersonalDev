@@ -1,0 +1,185 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000000y3rPAAQ",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000000y3rPAAQ",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 8
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getSobjectList",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 23
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "method1",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "ObjectController",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 2
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "SObject1",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "AllFields",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "ObjectController",
+        "references": [],
+        "type": "ObjectController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "SObjectList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 14
+            },
+            "modifiers": [],
+            "name": "gd",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 15
+            },
+            "modifiers": [],
+            "name": "gdKeySet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "k",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 25
+            },
+            "modifiers": [],
+            "name": "gd",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "st",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 28
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 29
+            },
+            "modifiers": [],
+            "name": "fieldmap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 31
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

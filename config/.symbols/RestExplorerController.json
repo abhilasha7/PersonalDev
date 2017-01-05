@@ -1,0 +1,296 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 14
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "RestExplorerController",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p90000006NJJpAAO",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000006NJJpAAO",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 44
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getIsBaseUrlConfigured",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 48
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getAvailableRequestMethods",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 59
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "execute",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "RestExplorerController",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 2
+            },
+            "modifiers": [
+                "private",
+                "final"
+            ],
+            "name": "BASE_REST_URL_PREFIX",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 4
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "url",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 5
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "requestBody",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 6
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "requestMethod",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 7
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "rawResponseHeaders",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 8
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "rawResponse",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 9
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "response",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 11
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "client",
+            "references": [],
+            "type": "RestClient"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 12
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "insturmenter",
+            "references": [],
+            "type": "RestResponseInstrumenter"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "RestExplorerController",
+        "references": [],
+        "type": "RestExplorerController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 15
+            },
+            "modifiers": [],
+            "name": "baseUrlConfig",
+            "references": [],
+            "type": "zAbhi__RestExplorerConfig__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "staticBaseUrl",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "sessionId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 27
+            },
+            "modifiers": [],
+            "name": "config",
+            "references": [],
+            "type": "ConnectorConfig"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "options",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "rm",
+            "references": [],
+            "type": "RequestMethods"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 76
+            },
+            "modifiers": [],
+            "name": "httpResponse",
+            "references": [],
+            "type": "HttpResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 85
+            },
+            "modifiers": [],
+            "name": "headerKey",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

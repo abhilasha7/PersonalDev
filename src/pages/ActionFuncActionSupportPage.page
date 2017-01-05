@@ -1,0 +1,38 @@
+<apex:page controller="ActionFuncActionSupportController">
+  <h1>Using Action Function and Action Support</h1>
+  
+  <apex:form >
+      <script>
+          function actionFunctionScriptFunc(){
+              alert('Introducing Action Function');
+              myActionFunction();
+          }
+      </script>
+          
+        <apex:PageBlock id="pageBlockId1" title="Action Function">
+           
+           <apex:actionFunction id="afId" name="myActionFunction" action="{!actionFunctionMethod}" reRender="pageBlockId3"/>
+           <apex:commandButton id="commandButtonId" onclick="actionFunctionScriptFunc(); return false;" title="Button" value="Button"/> 
+           <!-- NOTE: 
+           You have a race condition here - once the onclick handler completes the command button will continue with its normal flow and submit the form.
+           Thus both the commandbutton and the actionfunction components will both try to submit the form, and as the commmandbutton goes first I'd expect it to win, although its not an exact science.
+           If you want to use an actionfunction in this way, you have to stop the normal behavior of the commandbutton. One way to do this is to "return false" from the onclick handler
+           -->
+      </apex:PageBlock>
+       
+       <apex:pageBlock id="pageBlock2" title="Action Support">
+        <apex:outputPanel id="one">
+            <apex:commandButton id="commandButtonId2" value="Button">
+            <!--<apex:inputText > -->
+               <apex:actionSupport id="actionSupportId" event="onclick" reRender="one" action="{!actionSupportMethod}"/>
+            </apex:commandButton>
+        </apex:outputPanel>        
+        <!-- </apex:inputText>  -->
+       </apex:pageBlock>
+       <apex:outputPanel id="outputPanelId">
+       <apex:PageBlock id="pageBlockId3" title="Results">
+           <apex:outputText id="outputTextId" value="{!resultingText}"/>
+       </apex:PageBlock>
+       </apex:outputPanel>
+     </apex:form>      
+</apex:page>

@@ -1,0 +1,27 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000006NJJoAAO",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000006NJJoAAO",
+    "methods": [],
+    "name": "RestException",
+    "namespace": "zAbhi",
+    "parentClass": "Exception",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "RestException",
+        "references": [],
+        "type": "RestException"
+    },
+    "variables": []
+}

@@ -1,0 +1,17 @@
+<!-- INCOMPLETE -->
+<apex:page standardController="Account">
+    <apex:form >
+        <table>
+            <tr>
+                <td>
+                    <apex:outputtext value="{!$User.FirstName}"></apex:outputtext><p></P>
+                    <apex:commandLink style="color:blue;" rerender="theDetailView">{!$User.FirstName}
+                    </apex:commandLink>
+                </td>
+                <td>
+                    <apex:detail id="detailId" relatedList="true" />
+                </td>
+            </tr>
+        </table>
+    </apex:form>
+</apex:page>

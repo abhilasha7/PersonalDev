@@ -1,0 +1,148 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000004D8jvAAC",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000004D8jvAAC",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 10
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "login",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        }
+    ],
+    "name": "myLoginController",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 2
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "username",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "password",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "myLoginController",
+        "references": [],
+        "type": "myLoginController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 11
+            },
+            "modifiers": [],
+            "name": "pr",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 15
+            },
+            "modifiers": [],
+            "name": "actualUsername",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "actualPassword",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "msg",
+            "references": [],
+            "type": "Message"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 30
+            },
+            "modifiers": [],
+            "name": "msg",
+            "references": [],
+            "type": "Message"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 34
+            },
+            "modifiers": [],
+            "name": "msg",
+            "references": [],
+            "type": "Message"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 38
+            },
+            "modifiers": [],
+            "name": "msg",
+            "references": [],
+            "type": "Message"
+        }
+    ]
+}

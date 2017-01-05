@@ -1,0 +1,35 @@
+<apex:page controller="AccountListController"  >
+    <apex:form >
+        <apex:PageBlock >
+            <apex:pageblockButtons location="top">
+                <apex:outputPanel title="myButtons1">
+                    <apex:commandButton action="{!deleteAccounts}" value="Delete"/>
+                    <apex:commandButton action="{!moveAccounts}" value="Move" onclick="if(!confirm('Are you sure?')){return};"/>
+            
+                    <!--paginaion : START-->
+                    <apex:commandButton action="{!Beginning}" title="Beginning" value="<<" disabled="{!disablePrevious}" reRender="myButtons1"/>
+                    <apex:commandButton action="{!Previous}" title="Previous" value="<" disabled="{!disablePrevious}" reRender="myButtons1"/>        
+                    <apex:commandButton action="{!Next}" title="Next" value=">" disabled="{!disableNext}" reRender="myButtons1"/>
+                    <apex:commandButton action="{!End}" title="End" value=">>" disabled="{!disableNext}" reRender="myButtons1"/>        
+            
+                    <!--paginaion : END-->
+                </apex:outputPanel>
+            </apex:pageblockButtons>
+            <apex:PageBlockTable value="{!wrapperAccList}" var="a"> 
+                <apex:column headerValue="Select">
+                    <apex:inputCheckbox value="{!a.selected}" disabled="{!a.disableCheckbox }"/>
+                    <!-- <apex:param value="{!a.selected}" assignTo="{!removeCheckboxForAccount}" /> -->
+                 </apex:column>
+                <apex:column headerValue="Account Id" value="{!a.account1.Id}" />
+                <apex:column headerValue="Account Name" value="{!a.account1.Name}" />
+                <!--Pagination :START-->
+                <apex:facet name="footer">Showing Page # {!pageNumber} of {!totalPages}</apex:facet>
+                <!--Pagination :END-->
+            </apex:PageBlockTable>
+             <apex:pageblockTable value="{!toBeMovedAccList}" var="c" >
+                 <apex:column headerValue="Account Id" value="{!c.Id}" />
+                 <apex:column headerValue="Account Name" value="{!c.Name}" />
+             </apex:pageblockTable> 
+        </apex:PageBlock>
+    </apex:form>        
+</apex:page>

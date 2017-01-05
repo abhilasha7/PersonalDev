@@ -1,0 +1,216 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000006OEnzAAG",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000006OEnzAAG",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 24
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "validateUrl",
+            "parameters": [
+                {
+                    "name": "url",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 36
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "makeCallout",
+            "parameters": [
+                {
+                    "name": "url",
+                    "type": "String"
+                },
+                {
+                    "name": "method",
+                    "type": "String"
+                },
+                {
+                    "name": "body",
+                    "type": "String"
+                },
+                {
+                    "name": "headers",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "HttpResponse",
+            "type": null
+        }
+    ],
+    "name": "Utils",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 17
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "Utils",
+        "references": [],
+        "type": "Utils"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 24
+            },
+            "modifiers": [],
+            "name": "url",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 25
+            },
+            "modifiers": [],
+            "name": "urlRegex",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "MyPattern",
+            "references": [],
+            "type": "Pattern"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 27
+            },
+            "modifiers": [],
+            "name": "MyMatcher",
+            "references": [],
+            "type": "Matcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 36
+            },
+            "modifiers": [],
+            "name": "url",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 36
+            },
+            "modifiers": [],
+            "name": "method",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 75,
+                "line": 36
+            },
+            "modifiers": [],
+            "name": "body",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 100,
+                "line": 36
+            },
+            "modifiers": [],
+            "name": "headers",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 37
+            },
+            "modifiers": [],
+            "name": "req",
+            "references": [],
+            "type": "HttpRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 38
+            },
+            "modifiers": [],
+            "name": "res",
+            "references": [],
+            "type": "HttpResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 39
+            },
+            "modifiers": [],
+            "name": "http",
+            "references": [],
+            "type": "Http"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "key",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

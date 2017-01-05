@@ -1,0 +1,8 @@
+<apex:page controller="practicePage2Controller">
+    <apex:form >
+        <apex:selectList value="{!MyAccounts}">
+            <apex:selectOption itemValue="--None--" itemLabel="--None--" />
+            <apex:selectOption itemValue="{!MyAccountList}" itemLabel="--" />
+         </apex:selectList>
+    </apex:form>
+</apex:page>

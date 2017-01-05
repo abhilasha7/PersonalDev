@@ -1,0 +1,4 @@
+<apex:component controller="VisualforceComponentController">
+    <apex:attribute description="input field value" name="inputField" assignTo="{!AssignedToField}" type="String"/>
+    <apex:outputText value="{!inputStringRcvd}" style="color:red;"/>
+</apex:component>

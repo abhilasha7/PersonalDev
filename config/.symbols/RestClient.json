@@ -1,0 +1,179 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 5
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "RestClient",
+            "parameters": [
+                {
+                    "name": "config",
+                    "type": "ConnectorConfig"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p90000006NJJmAAO",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000006NJJmAAO",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 9
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "send",
+            "parameters": [
+                {
+                    "name": "method",
+                    "type": "String"
+                },
+                {
+                    "name": "url",
+                    "type": "String"
+                },
+                {
+                    "name": "body",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "HttpResponse",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 26
+            },
+            "modifiers": [
+                "virtual",
+                "private"
+            ],
+            "name": "send",
+            "parameters": [
+                {
+                    "name": "req",
+                    "type": "HttpRequest"
+                }
+            ],
+            "references": [],
+            "returnType": "HttpResponse",
+            "type": null
+        }
+    ],
+    "name": "RestClient",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 3
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "config",
+            "references": [],
+            "type": "ConnectorConfig"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 22,
+            "line": 1
+        },
+        "modifiers": [
+            "virtual",
+            "public"
+        ],
+        "name": "RestClient",
+        "references": [],
+        "type": "RestClient"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "config",
+            "references": [],
+            "type": "ConnectorConfig"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "method",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "url",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "body",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "req",
+            "references": [],
+            "type": "HttpRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "req",
+            "references": [],
+            "type": "HttpRequest"
+        }
+    ]
+}

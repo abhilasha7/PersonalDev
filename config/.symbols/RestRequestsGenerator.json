@@ -1,0 +1,254 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000006OEnxAAG",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000006OEnxAAG",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 24
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "createEndpointForCreate",
+            "parameters": [
+                {
+                    "name": "serverurl",
+                    "type": "String"
+                },
+                {
+                    "name": "apiVersion",
+                    "type": "String"
+                },
+                {
+                    "name": "objectName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 32
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "createEndpointWithExternalId",
+            "parameters": [
+                {
+                    "name": "url",
+                    "type": "String"
+                },
+                {
+                    "name": "fieldName",
+                    "type": "String"
+                },
+                {
+                    "name": "value",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 40
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "createHeadersForRequest",
+            "parameters": [
+                {
+                    "name": "sessionId",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 49
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "createBody",
+            "parameters": [
+                {
+                    "name": "record",
+                    "type": "SObject"
+                },
+                {
+                    "name": "mappings",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "RestRequestsGenerator",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 17
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "RestRequestsGenerator",
+        "references": [],
+        "type": "RestRequestsGenerator"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 24
+            },
+            "modifiers": [],
+            "name": "serverurl",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 72,
+                "line": 24
+            },
+            "modifiers": [],
+            "name": "apiVersion",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 91,
+                "line": 24
+            },
+            "modifiers": [],
+            "name": "objectName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 32
+            },
+            "modifiers": [],
+            "name": "url",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 32
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 89,
+                "line": 32
+            },
+            "modifiers": [],
+            "name": "value",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 40
+            },
+            "modifiers": [],
+            "name": "sessionId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "record",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "mappings",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "values",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "field",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

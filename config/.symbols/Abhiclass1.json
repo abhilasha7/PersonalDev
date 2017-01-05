@@ -1,0 +1,44 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000006PdbPAAS",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000006PdbPAAS",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 20
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "helloMethod",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "Abhiclass1",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 2
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "Abhiclass1",
+        "references": [],
+        "type": "Abhiclass1"
+    },
+    "variables": []
+}

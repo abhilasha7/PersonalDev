@@ -1,0 +1,1089 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000000xjEYAAY",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "LogInfo",
+            "namespace": "zAbhi",
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 5
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "category",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 6
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "level",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 7
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "category_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 8
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "level_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 9
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 10
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 4
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "LogInfo",
+                "references": [],
+                "type": "LogInfo"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "AllowFieldTruncationHeader_element",
+            "namespace": "zAbhi",
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 13
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "allowFieldTruncation",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 14
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "allowFieldTruncation_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 15
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 16
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 12
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "AllowFieldTruncationHeader_element",
+                "references": [],
+                "type": "AllowFieldTruncationHeader_element"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "DebuggingHeader_element",
+            "namespace": "zAbhi",
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 44,
+                        "line": 19
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "categories",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 20
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "debugLevel",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 21
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "categories_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 22
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "debugLevel_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 23
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 24
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 18
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "DebuggingHeader_element",
+                "references": [],
+                "type": "DebuggingHeader_element"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "CallOptions_element",
+            "namespace": "zAbhi",
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 27
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "client",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 28
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "client_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 29
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 30
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 26
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "CallOptions_element",
+                "references": [],
+                "type": "CallOptions_element"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "createMember_element",
+            "namespace": "zAbhi",
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 33
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "name",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 34
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "memberId",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 35
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "name_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 36
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "memberId_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 37
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 38
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 32
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "createMember_element",
+                "references": [],
+                "type": "createMember_element"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "createMemberResponse_element",
+            "namespace": "zAbhi",
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 41
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "result",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 42
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "result_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 43
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 44
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 40
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "createMemberResponse_element",
+                "references": [],
+                "type": "createMemberResponse_element"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 65
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "createMember",
+                    "parameters": [
+                        {
+                            "name": "name",
+                            "type": "String"
+                        },
+                        {
+                            "name": "memberId",
+                            "type": "Integer"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "String",
+                    "type": null
+                }
+            ],
+            "name": "MemberService",
+            "namespace": "zAbhi",
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 47
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "endpoint_x",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 35,
+                        "line": 48
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "inputHttpHeaders_x",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 35,
+                        "line": 49
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "outputHttpHeaders_x",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 50
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "clientCertName_x",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 51
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "clientCert_x",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 52
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "clientCertPasswd_x",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 53
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "timeout_x",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 56,
+                        "line": 54
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "DebuggingInfo",
+                    "references": [],
+                    "type": "DebuggingInfo_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 69,
+                        "line": 55
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "AllowFieldTruncationHeader",
+                    "references": [],
+                    "type": "AllowFieldTruncationHeader_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 58,
+                        "line": 56
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "DebuggingHeader",
+                    "references": [],
+                    "type": "DebuggingHeader_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 54,
+                        "line": 57
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "CallOptions",
+                    "references": [],
+                    "type": "CallOptions_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 56,
+                        "line": 58
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "SessionHeader",
+                    "references": [],
+                    "type": "SessionHeader_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 59
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "DebuggingInfo_hns",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 60
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "AllowFieldTruncationHeader_hns",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 61
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "DebuggingHeader_hns",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 62
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "CallOptions_hns",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 63
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "SessionHeader_hns",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 64
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "ns_map_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 46
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "MemberService",
+                "references": [],
+                "type": "MemberService"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 43,
+                        "line": 65
+                    },
+                    "modifiers": [],
+                    "name": "name",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 56,
+                        "line": 65
+                    },
+                    "modifiers": [],
+                    "name": "memberId",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 52,
+                        "line": 66
+                    },
+                    "modifiers": [],
+                    "name": "request_x",
+                    "references": [],
+                    "type": "createMember_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 60,
+                        "line": 67
+                    },
+                    "modifiers": [],
+                    "name": "response_x",
+                    "references": [],
+                    "type": "createMemberResponse_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 73,
+                        "line": 70
+                    },
+                    "modifiers": [],
+                    "name": "response_map_x",
+                    "references": [],
+                    "type": "Map"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "SessionHeader_element",
+            "namespace": "zAbhi",
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 89
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "sessionId",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 90
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "sessionId_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 91
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 92
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 88
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "SessionHeader_element",
+                "references": [],
+                "type": "SessionHeader_element"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "DebuggingInfo_element",
+            "namespace": "zAbhi",
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 95
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "debugLog",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 96
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "debugLog_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 97
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 98
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 94
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "DebuggingInfo_element",
+                "references": [],
+                "type": "DebuggingInfo_element"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p90000000xjEYAAY",
+    "methods": [],
+    "name": "MemberServiceStub",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 3
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "MemberServiceStub",
+        "references": [],
+        "type": "MemberServiceStub"
+    },
+    "variables": []
+}

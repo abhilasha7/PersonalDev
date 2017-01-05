@@ -1,0 +1,59 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "testcontroller",
+            "parameters": [
+                {
+                    "name": "controller",
+                    "type": "StandardController"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p900000039n50AAA",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p900000039n50AAA",
+    "methods": [],
+    "name": "testcontroller",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "testcontroller",
+        "references": [],
+        "type": "testcontroller"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "StandardController"
+        }
+    ]
+}

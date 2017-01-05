@@ -1,0 +1,1503 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000006OEo0AAG",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "loginResponse_element",
+            "namespace": "zAbhi",
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 49,
+                        "line": 5
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "result",
+                    "references": [],
+                    "type": "LoginResult"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 6
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "result_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 7
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 8
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 4
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "loginResponse_element",
+                "references": [],
+                "type": "loginResponse_element"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "CallOptions_element",
+            "namespace": "zAbhi",
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 11
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "client",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 12
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "defaultNamespace",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 13
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "client_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 14
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "defaultNamespace_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 15
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 16
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 10
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "CallOptions_element",
+                "references": [],
+                "type": "CallOptions_element"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "LoginScopeHeader_element",
+            "namespace": "zAbhi",
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 19
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "organizationId",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 20
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "portalId",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 21
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "organizationId_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 22
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "portalId_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 23
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 24
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 18
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "LoginScopeHeader_element",
+                "references": [],
+                "type": "LoginScopeHeader_element"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 49,
+                        "line": 39
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "login",
+                    "parameters": [
+                        {
+                            "name": "username",
+                            "type": "String"
+                        },
+                        {
+                            "name": "password",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "LoginResult",
+                    "type": null
+                }
+            ],
+            "name": "Soap",
+            "namespace": "zAbhi",
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 27
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "endpoint_x",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 35,
+                        "line": 28
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "inputHttpHeaders_x",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 35,
+                        "line": 29
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "outputHttpHeaders_x",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 30
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "clientCertName_x",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 31
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "clientCert_x",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 32
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "clientCertPasswd_x",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 33
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "timeout_x",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 57,
+                        "line": 34
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "CallOptions",
+                    "references": [],
+                    "type": "CallOptions_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 62,
+                        "line": 35
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "LoginScopeHeader",
+                    "references": [],
+                    "type": "LoginScopeHeader_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 36
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "CallOptions_hns",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 37
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "LoginScopeHeader_hns",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 38
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "ns_map_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 26
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Soap",
+                "references": [],
+                "type": "Soap"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 62,
+                        "line": 39
+                    },
+                    "modifiers": [],
+                    "name": "username",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 78,
+                        "line": 39
+                    },
+                    "modifiers": [],
+                    "name": "password",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 48,
+                        "line": 40
+                    },
+                    "modifiers": [],
+                    "name": "request_x",
+                    "references": [],
+                    "type": "login_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 56,
+                        "line": 41
+                    },
+                    "modifiers": [],
+                    "name": "response_x",
+                    "references": [],
+                    "type": "loginResponse_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 69,
+                        "line": 44
+                    },
+                    "modifiers": [],
+                    "name": "response_map_x",
+                    "references": [],
+                    "type": "Map"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "LoginResult",
+            "namespace": "zAbhi",
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 63
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "metadataServerUrl",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 64
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "passwordExpired",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 65
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "serverUrl",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 66
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "sessionId",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 67
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "userId",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 55,
+                        "line": 68
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "userInfo",
+                    "references": [],
+                    "type": "GetUserInfoResult"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 69
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "metadataServerUrl_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 70
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "passwordExpired_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 71
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "serverUrl_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 72
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "sessionId_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 73
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "userId_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 74
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "userInfo_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 75
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 76
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 62
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "LoginResult",
+                "references": [],
+                "type": "LoginResult"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "GetUserInfoResult",
+            "namespace": "zAbhi",
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 79
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "accessibilityMode",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 80
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "currencySymbol",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 81
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "orgDefaultCurrencyIsoCode",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 82
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "organizationId",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 83
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "organizationMultiCurrency",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 84
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "organizationName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 85
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "profileId",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 86
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "roleId",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 87
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "userDefaultCurrencyIsoCode",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 88
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "userEmail",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 89
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "userFullName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 90
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "userId",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 91
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "userLanguage",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 92
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "userLocale",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 93
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "userName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 94
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "userTimeZone",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 95
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "userType",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 96
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "userUiSkin",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 97
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "accessibilityMode_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 98
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "currencySymbol_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 99
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "orgDefaultCurrencyIsoCode_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 100
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "organizationId_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 101
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "organizationMultiCurrency_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 102
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "organizationName_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 103
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "profileId_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 104
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "roleId_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 105
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "userDefaultCurrencyIsoCode_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 106
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "userEmail_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 107
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "userFullName_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 108
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "userId_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 109
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "userLanguage_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 110
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "userLocale_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 111
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "userName_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 112
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "userTimeZone_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 113
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "userType_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 114
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "userUiSkin_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 115
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 116
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 78
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "GetUserInfoResult",
+                "references": [],
+                "type": "GetUserInfoResult"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "login_element",
+            "namespace": "zAbhi",
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 119
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "username",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 120
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "password",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 121
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "username_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 122
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "password_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 123
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 124
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 118
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "login_element",
+                "references": [],
+                "type": "login_element"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "SessionHeader_element",
+            "namespace": "zAbhi",
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 127
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "sessionId",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 128
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "sessionId_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 129
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 130
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 126
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "SessionHeader_element",
+                "references": [],
+                "type": "SessionHeader_element"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p90000006OEo0AAG",
+    "methods": [],
+    "name": "partnerSoapSforceCom",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 3
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "partnerSoapSforceCom",
+        "references": [],
+        "type": "partnerSoapSforceCom"
+    },
+    "variables": []
+}

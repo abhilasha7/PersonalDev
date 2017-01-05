@@ -1,0 +1,11 @@
+<apex:page controller="PaymentController">
+  <!-- Begin Default Content REMOVE THIS -->
+     <h2> Payment Controller Page </h2>
+  <!-- End Default Content REMOVE THIS -->
+<apex:form >  
+
+  <apex:inputText value="{!payment.Total_Cost__c}"/>
+  <apex:commandButton action="{!SavePayment}" value="Save"/>
+  
+</apex:form>  
+</apex:page>

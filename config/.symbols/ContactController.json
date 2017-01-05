@@ -1,0 +1,28 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000000xngGAAQ",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000000xngGAAQ",
+    "methods": [],
+    "name": "ContactController",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "ContactController",
+        "references": [],
+        "type": "ContactController"
+    },
+    "variables": []
+}

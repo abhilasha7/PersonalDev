@@ -1,0 +1,5 @@
+<apex:page controller="practicePage1Controller">
+<apex:form >
+    
+</apex:form>
+</apex:page>

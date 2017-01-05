@@ -1,0 +1,133 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000005PDgnAAG",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000005PDgnAAG",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "onBeforeInsert",
+            "parameters": [
+                {
+                    "name": "newCustomerList",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 16
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "onBeforeUpdate",
+            "parameters": [
+                {
+                    "name": "oldCustMap",
+                    "type": "Map"
+                },
+                {
+                    "name": "custList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "newCustMap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "CustomerTriggerHandler",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "CustomerTriggerHandler",
+        "references": [],
+        "type": "CustomerTriggerHandler"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "newCustomerList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "cust",
+            "references": [],
+            "type": "zAbhi__Customer__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "oldCustMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 85,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "custList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 115,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "newCustMap",
+            "references": [],
+            "type": "Map"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+<apex:page standardController="Account" Extensions="getUserInfoPageControllerExtension">
+    <apex:form >
+        <apex:pageBlock >
+            <apex:outputText value="{!LoggedInUserId}"></apex:outputText><br/>
+            <apex:outputText value="{!LoggedInUserName}"></apex:outputText>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

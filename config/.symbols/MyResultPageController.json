@@ -1,0 +1,225 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000003gFAuAAM",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000003gFAuAAM",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 10
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "Getoptions",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 18
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "GetObjects",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 22
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "setObjects",
+            "parameters": [
+                {
+                    "name": "objects",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 26
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "Results",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 30
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getData",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 34
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getListOfSelectedObjectRecords",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "MyResultPageController",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "objects",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 4
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "setObj",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 5
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "ListOfSelectedObjectRecords",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 6
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listOfLeadRecords",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 7
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listOfAccountRecords",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 8
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listOfOpportunityRecords",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "MyResultPageController",
+        "references": [],
+        "type": "MyResultPageController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 11
+            },
+            "modifiers": [],
+            "name": "selectedOption",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 22
+            },
+            "modifiers": [],
+            "name": "objects",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

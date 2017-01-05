@@ -1,0 +1,193 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000003hHvlAAE",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 9,
+                        "line": 10
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "cNodes",
+                    "parameters": [
+                        {
+                            "name": "gp",
+                            "type": "Account"
+                        },
+                        {
+                            "name": "p",
+                            "type": "LIST"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "cNodes",
+            "namespace": "zAbhi",
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 7
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "parent",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 8
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "gparent",
+                    "references": [],
+                    "type": "Account"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 14,
+                    "line": 4
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "cNodes",
+                "references": [],
+                "type": "cNodes"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 25,
+                        "line": 10
+                    },
+                    "modifiers": [],
+                    "name": "gp",
+                    "references": [],
+                    "type": "Account"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 43,
+                        "line": 10
+                    },
+                    "modifiers": [],
+                    "name": "p",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p90000003hHvlAAE",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 20
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getmainnodes",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "treenode",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 18
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "hierarchy",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "treenode",
+        "references": [],
+        "type": "treenode"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 23
+            },
+            "modifiers": [],
+            "name": "tempparent",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 24
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "tempchildren",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

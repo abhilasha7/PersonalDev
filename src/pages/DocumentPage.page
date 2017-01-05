@@ -1,0 +1,15 @@
+<apex:page tabstyle="Account">
+<html><p><font size="5" face="comic sans" color="blue">
+SFDC Pune
+</font></p>
+
+
+<apex:insert name="main">
+</apex:insert>
+  
+<p><font size="3" face="Times New Roman" color="green">
+Cognizant Ltd
+</font></p>
+</html>
+
+</apex:page>

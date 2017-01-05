@@ -1,0 +1,61 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000000xiIWAAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000000xiIWAAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 3
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "print",
+            "parameters": [
+                {
+                    "name": "p",
+                    "type": "zAbhi__Payment__c"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "Paymentclass",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "Paymentclass",
+        "references": [],
+        "type": "Paymentclass"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "p",
+            "references": [],
+            "type": "zAbhi__Payment__c"
+        }
+    ]
+}

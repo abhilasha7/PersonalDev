@@ -1,0 +1,103 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000005ktbGAAQ",
+    "innerClasses": [],
+    "interfaces": [
+        "ChatterAnswers.AccountCreator"
+    ],
+    "key": "01p90000005ktbGAAQ",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 6
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "createAccount",
+            "parameters": [
+                {
+                    "name": "firstname",
+                    "type": "String"
+                },
+                {
+                    "name": "lastname",
+                    "type": "String"
+                },
+                {
+                    "name": "siteAdminId",
+                    "type": "Id"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "ChatterAnswersRegistration",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 5
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "ChatterAnswersRegistration",
+        "references": [],
+        "type": "ChatterAnswersRegistration"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "firstname",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "lastname",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "siteAdminId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        }
+    ]
+}

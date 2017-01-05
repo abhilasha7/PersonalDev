@@ -1,0 +1,302 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000006NJJqAAO",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000006NJJqAAO",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 4
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testInitialization",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 14
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testAutoExecution",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 22
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testCustomUrl",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 31
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testBadUrlThrowsException",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 41
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGetAvailableRequestMethodsl",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 49
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGetIsBaseUrlConfigured_WhenNotConfigured",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 60
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testGetIsBaseUrlConfigured_WhenConfigured",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "RestExplorerControllerTest",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 2
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "RestExplorerControllerTest",
+        "references": [],
+        "type": "RestExplorerControllerTest"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "RestExplorerController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 17
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "RestExplorerController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 24
+            },
+            "modifiers": [],
+            "name": "customUrl",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "RestExplorerController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 33
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "RestExplorerController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 34
+            },
+            "modifiers": [],
+            "name": "previousMessages",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "RestExplorerController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "previousMessages",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "RestExplorerController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "RestExplorerController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "config",
+            "references": [],
+            "type": "zAbhi__RestExplorerConfig__c"
+        }
+    ]
+}

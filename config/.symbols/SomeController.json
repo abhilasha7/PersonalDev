@@ -1,0 +1,97 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000000xqFqAAI",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000000xqFqAAI",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 5
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "search",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 12
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getListAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "SomeController",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 2
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "q",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "listAccount",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "SomeController",
+        "references": [],
+        "type": "SomeController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "query",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

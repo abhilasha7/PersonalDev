@@ -1,0 +1,4 @@
+<apex:page controller="TestPageController">
+    <apex:form >
+    </apex:form>
+</apex:page>

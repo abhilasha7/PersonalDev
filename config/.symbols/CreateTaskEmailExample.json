@@ -1,0 +1,121 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000000xiVEAAY",
+    "innerClasses": [],
+    "interfaces": [
+        "Messaging.InboundEmailHandler"
+    ],
+    "key": "01p90000000xiVEAAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 3
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "handleInboundEmail",
+            "parameters": [
+                {
+                    "name": "email",
+                    "type": "InboundEmail"
+                },
+                {
+                    "name": "env",
+                    "type": "InboundEnvelope"
+                }
+            ],
+            "references": [],
+            "returnType": "InboundEmailResult",
+            "type": null
+        }
+    ],
+    "name": "CreateTaskEmailExample",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "global"
+        ],
+        "name": "CreateTaskEmailExample",
+        "references": [],
+        "type": "CreateTaskEmailExample"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 81,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "email",
+            "references": [],
+            "type": "InboundEmail"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 82,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "env",
+            "references": [],
+            "type": "InboundEnvelope"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "InboundEmailResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 12
+            },
+            "modifiers": [],
+            "name": "myPlainText",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 20
+            },
+            "modifiers": [],
+            "name": "newTask",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 29
+            },
+            "modifiers": [],
+            "name": "vCon",
+            "references": [],
+            "type": "Contact"
+        }
+    ]
+}

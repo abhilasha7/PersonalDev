@@ -1,0 +1,7 @@
+<apex:page standardController="Account">
+    <apex:form >
+        <apex:pageBlock >
+            <c:ChangeTextColorComponent inputField="Abhilasha Dhamija"/>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

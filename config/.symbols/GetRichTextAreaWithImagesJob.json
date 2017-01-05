@@ -1,0 +1,1000 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 183
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "GetRichTextAreaWithImagesJob",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p90000006OEnuAAG",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "JobException",
+            "namespace": "zAbhi",
+            "parentClass": "Exception",
+            "properties": [],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 427
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "JobException",
+                "references": [],
+                "type": "JobException"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [
+        "Database.AllowsCallouts",
+        "Database.Batchable",
+        "Database.Stateful"
+    ],
+    "key": "01p90000006OEnuAAG",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 198
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "start",
+            "parameters": [
+                {
+                    "name": "BC",
+                    "type": "BatchableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "QueryLocator",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 206
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "execute",
+            "parameters": [
+                {
+                    "name": "BC",
+                    "type": "BatchableContext"
+                },
+                {
+                    "name": "records",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 230
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "finish",
+            "parameters": [
+                {
+                    "name": "BC",
+                    "type": "BatchableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 249
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "startMigrationOfRecords",
+            "parameters": [
+                {
+                    "name": "records",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 296
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "makeLoginCall",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 307
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "getObjectMappings",
+            "parameters": [],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 325
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "getAllImages",
+            "parameters": [
+                {
+                    "name": "richTextBody",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 359
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "createMapForBlobData",
+            "parameters": [
+                {
+                    "name": "urls",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 384
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "createBinaryImageData",
+            "parameters": [
+                {
+                    "name": "encodedData",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 394
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "getAllUrlsFromTags",
+            "parameters": [
+                {
+                    "name": "imageTags",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 410
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "findSrcAtt",
+            "parameters": [
+                {
+                    "name": "tag",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "GetRichTextAreaWithImagesJob",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 23
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "query",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 25
+            },
+            "modifiers": [
+                "static",
+                "global"
+            ],
+            "name": "failedRecords",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 27
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "SESSION",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 29
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "SERVER_URL",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 35
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "EXTERNAL_ID_FIELD",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 50
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "DESTINATION_EXTERNAL_ID_FIELD",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 65
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "SITE_URL",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 79
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "OBJECT_NAME",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 93
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "DESTINATION_OBJECT_NAME",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 108
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "FIELDS",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 122
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "DESTINATION_FIELDS",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 137
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "API_VERSION",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 151
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "USERNAME",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 166
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "PASSWORD",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 21
+        },
+        "modifiers": [
+            "global"
+        ],
+        "name": "GetRichTextAreaWithImagesJob",
+        "references": [],
+        "type": "GetRichTextAreaWithImagesJob"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 198
+            },
+            "modifiers": [],
+            "name": "BC",
+            "references": [],
+            "type": "BatchableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 206
+            },
+            "modifiers": [],
+            "name": "BC",
+            "references": [],
+            "type": "BatchableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 206
+            },
+            "modifiers": [],
+            "name": "records",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 207
+            },
+            "modifiers": [],
+            "name": "recordsToBeUpdated",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 208
+            },
+            "modifiers": [],
+            "name": "record",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 209
+            },
+            "modifiers": [],
+            "name": "field",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 211
+            },
+            "modifiers": [],
+            "name": "encodedImagesData",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 214
+            },
+            "modifiers": [],
+            "name": "url",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 230
+            },
+            "modifiers": [],
+            "name": "BC",
+            "references": [],
+            "type": "BatchableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 39
+            },
+            "modifiers": [],
+            "name": "ids",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 54
+            },
+            "modifiers": [],
+            "name": "ids",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 249
+            },
+            "modifiers": [],
+            "name": "records",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 250
+            },
+            "modifiers": [],
+            "name": "record",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 267
+            },
+            "modifiers": [],
+            "name": "headers",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 271
+            },
+            "modifiers": [],
+            "name": "mappings",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 275
+            },
+            "modifiers": [],
+            "name": "body",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 282
+            },
+            "modifiers": [],
+            "name": "res",
+            "references": [],
+            "type": "HttpResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 297
+            },
+            "modifiers": [],
+            "name": "sf",
+            "references": [],
+            "type": "Soap"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 298
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "LoginResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 308
+            },
+            "modifiers": [],
+            "name": "mappings",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 310
+            },
+            "modifiers": [],
+            "name": "sourceFields",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 311
+            },
+            "modifiers": [],
+            "name": "destinationFeilds",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 313
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 56,
+                "line": 325
+            },
+            "modifiers": [],
+            "name": "richTextBody",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 327
+            },
+            "modifiers": [],
+            "name": "imageTags",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 328
+            },
+            "modifiers": [],
+            "name": "encodedBodyMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 329
+            },
+            "modifiers": [],
+            "name": "subStringbody",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 333
+            },
+            "modifiers": [],
+            "name": "startIndex",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 334
+            },
+            "modifiers": [],
+            "name": "endIndex",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 345
+            },
+            "modifiers": [],
+            "name": "urls",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 70,
+                "line": 359
+            },
+            "modifiers": [],
+            "name": "urls",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 361
+            },
+            "modifiers": [],
+            "name": "mapBinaryImageBody",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 363
+            },
+            "modifiers": [],
+            "name": "url",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 368
+            },
+            "modifiers": [],
+            "name": "bResult",
+            "references": [],
+            "type": "Blob"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 369
+            },
+            "modifiers": [],
+            "name": "finalUrl",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 370
+            },
+            "modifiers": [],
+            "name": "res",
+            "references": [],
+            "type": "HttpResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 384
+            },
+            "modifiers": [],
+            "name": "encodedData",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 394
+            },
+            "modifiers": [],
+            "name": "imageTags",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 395
+            },
+            "modifiers": [],
+            "name": "urls",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 396
+            },
+            "modifiers": [],
+            "name": "tag",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 397
+            },
+            "modifiers": [],
+            "name": "url",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 410
+            },
+            "modifiers": [],
+            "name": "tag",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 411
+            },
+            "modifiers": [],
+            "name": "url",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 414
+            },
+            "modifiers": [],
+            "name": "startIndex",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 415
+            },
+            "modifiers": [],
+            "name": "endIndex",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 416
+            },
+            "modifiers": [],
+            "name": "srcUrl",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

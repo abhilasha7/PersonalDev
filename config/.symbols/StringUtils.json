@@ -1,0 +1,238 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000004D4UIAA0",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000004D4UIAA0",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 3
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "MaskString",
+            "parameters": [
+                {
+                    "name": "inString",
+                    "type": "String"
+                },
+                {
+                    "name": "inPatterns",
+                    "type": "LIST"
+                },
+                {
+                    "name": "inMask",
+                    "type": "String"
+                },
+                {
+                    "name": "inVisibleCharacters",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "StringUtils",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "StringUtils",
+        "references": [],
+        "type": "StringUtils"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "inString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 67,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "inPatterns",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 86,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "inMask",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 102,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "inVisibleCharacters",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 14
+            },
+            "modifiers": [],
+            "name": "stringToMask",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 15
+            },
+            "modifiers": [],
+            "name": "maskedString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 18
+            },
+            "modifiers": [],
+            "name": "regEx",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 19
+            },
+            "modifiers": [],
+            "name": "p",
+            "references": [],
+            "type": "Pattern"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 20
+            },
+            "modifiers": [],
+            "name": "m",
+            "references": [],
+            "type": "Matcher"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 24
+            },
+            "modifiers": [],
+            "name": "startIdx",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 25
+            },
+            "modifiers": [],
+            "name": "endIdx",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 28
+            },
+            "modifiers": [],
+            "name": "patternMatch",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 31
+            },
+            "modifiers": [],
+            "name": "partToBeMasked",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 32
+            },
+            "modifiers": [],
+            "name": "mask",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 33
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 38
+            },
+            "modifiers": [],
+            "name": "maskedNumber",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

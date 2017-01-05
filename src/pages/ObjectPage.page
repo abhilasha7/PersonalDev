@@ -1,0 +1,29 @@
+<apex:page Controller="ObjectController">
+    <apex:pageBlock >
+    <apex:form >
+    
+        <apex:selectList value="{!SObject1}" size="1">
+            <apex:selectOptions value="{!SobjectList}"  />
+            <apex:actionSupport event="onchange" action="{!method1}" rerender="Section1"/>
+        </apex:selectList>
+       
+        <!--<apex:selectList value="{!dummySelectedItem}" size="1">
+            <apex:selectOption itemValue="-None-" itemLabel="-None-"/>
+            <apex:selectOption itemValue="Account" itemLabel="Account"/>
+            <apex:selectOption itemValue="Contact" itemLabel="Contact"/>
+            <apex:selectOption itemValue="Opportunity" itemLabel="Opportunity"/>
+        </apex:selectList>-->
+      
+      
+        <apex:pageblockSection id="Section1">
+            <apex:pageblockTable value="{!AllFields}" var="c">
+                 <apex:column headerValue="Fields">
+                    <apex:OutputText value="{!c}"/>
+                    </apex:column>
+
+            </apex:pageblockTable>
+         </apex:pageblockSection>
+        
+    </apex:form>
+    </apex:pageBlock>
+</apex:page>

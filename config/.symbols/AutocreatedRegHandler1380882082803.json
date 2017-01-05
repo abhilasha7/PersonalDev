@@ -1,0 +1,224 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000003AZExAAO",
+    "innerClasses": [],
+    "interfaces": [
+        "Auth.RegistrationHandler"
+    ],
+    "key": "01p90000003AZExAAO",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 6
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "canCreateUser",
+            "parameters": [
+                {
+                    "name": "data",
+                    "type": "UserData"
+                }
+            ],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 15
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "createUser",
+            "parameters": [
+                {
+                    "name": "portalId",
+                    "type": "Id"
+                },
+                {
+                    "name": "data",
+                    "type": "UserData"
+                }
+            ],
+            "references": [],
+            "returnType": "User",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 44
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "updateUser",
+            "parameters": [
+                {
+                    "name": "userId",
+                    "type": "Id"
+                },
+                {
+                    "name": "portalId",
+                    "type": "Id"
+                },
+                {
+                    "name": "data",
+                    "type": "UserData"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "AutocreatedRegHandler1380882082803",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 5
+        },
+        "modifiers": [
+            "global"
+        ],
+        "name": "AutocreatedRegHandler1380882082803",
+        "references": [],
+        "type": "AutocreatedRegHandler1380882082803"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "data",
+            "references": [],
+            "type": "UserData"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 15
+            },
+            "modifiers": [],
+            "name": "portalId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 15
+            },
+            "modifiers": [],
+            "name": "data",
+            "references": [],
+            "type": "UserData"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 21
+            },
+            "modifiers": [],
+            "name": "u",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 22
+            },
+            "modifiers": [],
+            "name": "p",
+            "references": [],
+            "type": "Profile"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 30
+            },
+            "modifiers": [],
+            "name": "alias",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "userId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "portalId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 62,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "data",
+            "references": [],
+            "type": "UserData"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 45
+            },
+            "modifiers": [],
+            "name": "u",
+            "references": [],
+            "type": "User"
+        }
+    ]
+}

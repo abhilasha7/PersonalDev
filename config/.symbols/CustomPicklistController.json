@@ -1,0 +1,114 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 6
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "CustomPicklistController",
+            "parameters": [
+                {
+                    "name": "controler",
+                    "type": "StandardController"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p90000004G5hWAAS",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000004G5hWAAS",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 9
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getCity",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "CustomPicklistController",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "SelectedState",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 4
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "SelectedCity",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "CustomPicklistController",
+        "references": [],
+        "type": "CustomPicklistController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "controler",
+            "references": [],
+            "type": "StandardController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "CityOptions",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

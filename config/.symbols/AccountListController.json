@@ -1,0 +1,455 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 15
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "AccountListController",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p90000003B69tAAC",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "wrapperAccountClass",
+            "namespace": "zAbhi",
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 122
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "selected",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 123
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "account1",
+                    "references": [],
+                    "type": "Account"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 24,
+                        "line": 124
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "disableCheckbox",
+                    "references": [],
+                    "type": "Boolean"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 121
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "wrapperAccountClass",
+                "references": [],
+                "type": "wrapperAccountClass"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p90000003B69tAAC",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 24
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getwrapperAccList",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 36
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "deleteAccounts",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 49
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "moveAccounts",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 74
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "Beginning",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 80
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "Previous",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 85
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "Next",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 90
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "End",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 95
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getDisablePrevious",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 100
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getDisableNext",
+            "parameters": [],
+            "references": [],
+            "returnType": "Boolean",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 104
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getTotal_size",
+            "parameters": [],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 108
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getPageNumber",
+            "parameters": [],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 112
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getTotalPages",
+            "parameters": [],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        }
+    ],
+    "name": "AccountListController",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "accountList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 4
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "wrapperAccList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 5
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "toBeDeletedAccList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 6
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "MovingAccList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 7
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "toBeMovedAccList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 8
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "removeCheckboxForAccount",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 10
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "counter",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 11
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "list_size",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 12
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "total_size",
+            "references": [],
+            "type": "Integer"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "AccountListController",
+        "references": [],
+        "type": "AccountListController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 28
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 29
+            },
+            "modifiers": [],
+            "name": "wrapperObj",
+            "references": [],
+            "type": "wrapperAccountClass"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 38
+            },
+            "modifiers": [],
+            "name": "b",
+            "references": [],
+            "type": "wrapperAccountClass"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "b",
+            "references": [],
+            "type": "wrapperAccountClass"
+        }
+    ]
+}

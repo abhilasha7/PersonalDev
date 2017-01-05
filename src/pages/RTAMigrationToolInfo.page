@@ -1,0 +1,47 @@
+<apex:page showHeader="true" sidebar="false" standardStylesheets="false" controller="RTAMigrationToolInfoController">
+
+	<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"/>
+
+	<div class="jumbotron" style="padding: 30px 20px;">
+
+	  <center><h2>RTA Migration Tool Setup</h2></center>
+	  <center class="alert alert-success" style="margin-top:15px;{!IF(showMsg, 'display:block' , 'display:none')}">Success! Job has been queued. Please go to <a href="/apexpages/setup/listAsyncApexJobs.apexp">Jobs</a> page to check the progress</center>
+	  <p style="margin-top:15px; font-size:16px;">
+	  	This tool is helpful in migrating rich text area images to another orgs via Integration. Its doesnot store images anywhere into your system, just processes and add them to destination's org. It supports mutiples fields at a time in case you are creating fields.<br/><br/>
+
+		It works on concept of upsert wherein it creates or updates records on basis of external field. An External field needs to be created on objects on both the orgs to sync the process.<br/><br/>
+
+		It is independent of objects and fields and can be mapped from one object of source org to another object of destination org.<br/><br/>
+
+		<b>*IMPORTANT*</b>All object and field names are API Names.<br/>
+					Sequence in source and destination fields will decide field mappings.<br/>
+					1st source field will be copied in 1st destination field and so on...<br/><br/><br/>
+
+
+		<b>Prerequisites</b> : <br/>
+		&nbsp;1. A force.com site should be there in your org with permission on object and RichTextArea field to be migrated.<br/>
+		&nbsp;2. External fields need to be created for object in both objects for syncing.<br/><br/><br/>
+
+		<b>Please follow below instructions to configure and run it properly.</b><br/>
+		&nbsp;1. Setup three remote site settings. Go to <i>Security Controls | Remote Site Settings</i> and add following one by one. <br/>
+			&nbsp;&nbsp;&nbsp;a. Salesforce -> https://www.salesforce.com<br/>
+			&nbsp;&nbsp;&nbsp;b. yourOrgName -> yourOrgInstanceUrl  ex: https://ap1.salesforce.com, ap1 is instance here<br/>
+			&nbsp;&nbsp;&nbsp;c. Site_url -> yourSiteUrl<br/><br/>
+
+		&nbsp;2. Setup custom configuration for migration. Go to <i>Develop | Custom Settings | RTA Migration Setup</i><br/>
+			&nbsp;&nbsp;&nbsp;a. Destination's username<br/>
+			&nbsp;&nbsp;&nbsp;b. Destination's password<br/>
+			&nbsp;&nbsp;&nbsp;c. Source's Object Name :- Current org object name that needs to be migrated(API name only)<br/>
+			&nbsp;&nbsp;&nbsp;d. Destination's Object Name :- Destination org object name(API name only)<br/>
+			&nbsp;&nbsp;&nbsp;e. Source's Fields :- Current org object's fields that needs to be migrated(comma seprated names, API names only)<br/>
+			&nbsp;&nbsp;&nbsp;f. Destination's Fields :- Destination org object's fields.<br/>
+			   &nbsp;&nbsp;&nbsp;<b>Note:-</b> the sequence of these fields should be such that it matches sequence of source object fields as each source field will map each destination field in order.<br/>
+			&nbsp;&nbsp;&nbsp;g. API version :- Current API version of Salesforce. Current is 33.0<br/>
+			&nbsp;&nbsp;&nbsp;h. Source's Site Url :- Any site's url of current org that has permission of object as well as fields.<br/>
+			&nbsp;&nbsp;&nbsp;i. External Id's Mapping :- External Id mappings. External id of current org maps external id of another org the format should be SourceExternalId:DestinationExternalId<br/><br/>
+
+		&nbsp;3. Now, you are ready to go. Click on below button to run the job</p>
+
+		 <center><apex:form ><apex:commandButton style="font-size: 18px;width: 100px;border-radius: 10px;" value="Run" action="{!runJob}"></apex:commandButton></apex:form></center>
+	</div>
+</apex:page>

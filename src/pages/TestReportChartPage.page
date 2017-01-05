@@ -1,0 +1,3 @@
+<apex:page standardController="Opportunity">
+<analytics:reportChart reportId="00O9000000931es" size="small" filter="{column:'CREATED_DATE',operator:'greaterThan', value:'{!Opportunity.Custom_Start_Date__c}', column:'CREATED_DATE', operator:'lessThan', value:'{!Opportunity.Custom_End_Date__c}'}"></analytics:reportChart>
+</apex:page>

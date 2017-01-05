@@ -1,0 +1,31 @@
+<apex:page standardController="Account" extensions="MyAccountController" action="{!PopContactList}">
+    <apex:form >
+    
+     <apex:commandButton value="Submit" action="{!Submit}"  />
+    
+        <apex:pageBlock >
+    
+            <apex:pageBlockSection title="Accounts">
+                <apex:inputField value="{!Account.Name}"/>
+            </apex:pageBlockSection>
+            
+            
+            <apex:pageBlockSection title="Contacts">
+                <apex:pageBlockTable value="{!ConList}" var="c">
+                
+                    <apex:column headerValue="FirstName">
+                    <apex:inputField value="{!c.FirstName}"/>
+                    </apex:column>
+                    
+                    <apex:column headerValue="LastName">
+                    <apex:inputField value="{!c.LastName}"/>
+                    </apex:column>
+                    
+                </apex:pageBlockTable>
+            
+            </apex:pageBlockSection>
+         
+         </apex:pageBlock>
+     </apex:form>
+  
+</apex:page>

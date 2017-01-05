@@ -1,0 +1,35 @@
+<apex:page showHeader="false" sidebar="false" standardstylesheets="false">
+    <apex:stylesheet value="{!URLFOR($Resource.SansStyles, '/CSS/common.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.SansStyles, '/CSS/global-nav.css')}" /> 
+       
+    <div id="page" class="wrapper">
+        <div id="portal" class="container extendToBottom">
+            <a name="top"></a>
+            <div style="width:994px;">
+                <div class="iw_component" style="width:994px;min-height:120px;display:inline;float:left;background-color:#FFFFFF;">
+                    <div class="topBrandBar"><span><!-- // --></span></div>
+                    <div class="header clearFloat">
+                        <c:s_headercomponent />
+                    </div>
+                    <a name="navigation"><!-- // --></a>
+                    <div class="navigationBar">
+                        <c:headermenu ></c:headermenu>
+                    </div>
+                </div>
+                <!--   HEADER STARTS      -->
+            </div>
+            <!--   HEADER ENDS      -->
+               
+           <div class="page checkout basketPage">
+               <apex:insert name="main-page" />
+           </div> 
+       </div>
+    </div>
+    <c:s_footer />        
+    
+    <apex:includeScript value="{!URLFOR($Resource.SansStyles,'/JS/utility.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.SansStyles,'/JS/infobox.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.SansStyles,'/JS/omniture_tag.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.SansStyles,'/JS/textresize.js')}"/>
+    <script type="text/javascript" src="{!URLFOR($Resource.SansStyles, '/JS/common.js')}"></script>
+</apex:page>

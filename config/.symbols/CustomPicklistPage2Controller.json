@@ -1,0 +1,74 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "CustomPicklistPage2Controller",
+            "parameters": [
+                {
+                    "name": "controller",
+                    "type": "StandardController"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p90000004G8T1AAK",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000004G8T1AAK",
+    "methods": [],
+    "name": "CustomPicklistPage2Controller",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 7
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "picklistField1Values",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "CustomPicklistPage2Controller",
+        "references": [],
+        "type": "CustomPicklistPage2Controller"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 3
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "StandardController"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+<apex:page standardController="opportunity" extensions="ActivityHistoryController" sidebar="false" >
+  <apex:form >
+    <apex:pageBlock id="block1">
+      <apex:pageBlockTable title="Activity History" value="{!ActHistory1}" var="item">
+        <apex:column headerValue="Action">
+          <apex:outputLink value="https://ap1.salesforce.com/00T9000000Axfjn/e?retURL=%2F006900000062iPd/" id="theLink">Edit</apex:outputLink>
+             <!--<apex:outputLink onclick="show_alert()" value="{!Delete_Record}"> / Delete
+                 <apex:param value="{!item.id}" assignTo="{!delRec}"/>
+             </apex:outputLink>-->
+           
+             <!--  <apex:actionFunction action="{!getDelete_Record}"  rerender="block1" name="deletion" >
+                    <apex:param name="del" value="{!item.id}" assignTo="{!delRec}" />
+               </apex:actionFunction> -->
+               
+              <apex:commandLink onclick="return show_alert();" value="  |  Delete"  action="{!getDelete_Record}" id="myid" >
+                         <apex:param value="{!item.Id}" assignTo="{!delRec}"  name="del"/>
+                </apex:commandLink>
+                       
+                       
+                       <script type="text/javascript">
+                       function show_alert(){
+                       var tf = confirm('Are you sure you want to delete this Activity?');
+                       if (tf==true)
+                       return true;
+                       else
+                       return false;
+                       }
+                       </script>
+             
+        </apex:column>
+        
+        <apex:column headerValue="Subject" value="{!item.Subject}" />
+        <apex:column headerValue="Name" value="{!item.whoid}"/>
+        <apex:column headerValue="Due Date" value="{!item.activitydate}"/>
+        <apex:column headerValue="Assigned To" value="{!item.ownerid}"/>
+        <apex:column headerValue="Last Modified Date/Time" value="{!item.LastModifiedById}"/>
+     
+      </apex:pageBlockTable>
+    </apex:pageBlock>
+   </apex:form> 
+</apex:page>

@@ -1,0 +1,27 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000006NJJlAAO",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000006NJJlAAO",
+    "methods": [],
+    "name": "RequestMethods",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 13,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "RequestMethods",
+        "references": [],
+        "type": "RequestMethods"
+    },
+    "variables": []
+}

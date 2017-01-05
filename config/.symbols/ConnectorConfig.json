@@ -1,0 +1,133 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 5
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "ConnectorConfig",
+            "parameters": [
+                {
+                    "name": "baseUrl",
+                    "type": "String"
+                },
+                {
+                    "name": "sessionId",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p90000006NJJkAAO",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000006NJJkAAO",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 10
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getBaseUrl",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 14
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getSessionId",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "ConnectorConfig",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 2
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "baseUrl",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 3
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "sessionId",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "ConnectorConfig",
+        "references": [],
+        "type": "ConnectorConfig"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "baseUrl",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "sessionId",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

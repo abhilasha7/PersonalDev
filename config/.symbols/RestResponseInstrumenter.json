@@ -1,0 +1,380 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 22
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "RestResponseInstrumenter",
+            "parameters": [
+                {
+                    "name": "baseUrl",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01p90000006NJJrAAO",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 9,
+                        "line": 8
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "Insturmentation",
+                    "parameters": [
+                        {
+                            "name": "pattern",
+                            "type": "Pattern"
+                        },
+                        {
+                            "name": "replacement",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 13
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "instrument",
+                    "parameters": [
+                        {
+                            "name": "s",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "String",
+                    "type": null
+                }
+            ],
+            "name": "Insturmentation",
+            "namespace": "zAbhi",
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 31,
+                        "line": 5
+                    },
+                    "modifiers": [
+                        "private",
+                        "final"
+                    ],
+                    "name": "pattern",
+                    "references": [],
+                    "type": "Pattern"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 30,
+                        "line": 6
+                    },
+                    "modifiers": [
+                        "private",
+                        "final"
+                    ],
+                    "name": "replacement",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 19,
+                    "line": 4
+                },
+                "modifiers": [
+                    "private"
+                ],
+                "name": "Insturmentation",
+                "references": [],
+                "type": "Insturmentation"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 33,
+                        "line": 8
+                    },
+                    "modifiers": [],
+                    "name": "pattern",
+                    "references": [],
+                    "type": "Pattern"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 49,
+                        "line": 8
+                    },
+                    "modifiers": [],
+                    "name": "replacement",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 40,
+                        "line": 13
+                    },
+                    "modifiers": [],
+                    "name": "s",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 27,
+                        "line": 14
+                    },
+                    "modifiers": [],
+                    "name": "matcher",
+                    "references": [],
+                    "type": "Matcher"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p90000006NJJrAAO",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 48
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "instrument",
+            "parameters": [
+                {
+                    "name": "s",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 59
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "chunk",
+            "parameters": [
+                {
+                    "name": "s",
+                    "type": "String"
+                },
+                {
+                    "name": "delim",
+                    "type": "String"
+                },
+                {
+                    "name": "chunkSize",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "RestResponseInstrumenter",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 20
+            },
+            "modifiers": [
+                "private",
+                "final"
+            ],
+            "name": "insturmentations",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "RestResponseInstrumenter",
+        "references": [],
+        "type": "RestResponseInstrumenter"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 22
+            },
+            "modifiers": [],
+            "name": "baseUrl",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 28
+            },
+            "modifiers": [],
+            "name": "restBasePattern",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "retVal",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Insturmentation"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "delim",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "chunkSize",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 60
+            },
+            "modifiers": [],
+            "name": "breakpoint",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "chunks",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

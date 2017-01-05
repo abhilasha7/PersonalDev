@@ -1,0 +1,27 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000003Ac2mAAC",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000003Ac2mAAC",
+    "methods": [],
+    "name": "mySampleClass",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "mySampleClass",
+        "references": [],
+        "type": "mySampleClass"
+    },
+    "variables": []
+}

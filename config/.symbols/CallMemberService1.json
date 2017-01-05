@@ -1,0 +1,55 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000000xhIWAAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000000xhIWAAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "createMember",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "CallMemberService1",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "CallMemberService1",
+        "references": [],
+        "type": "CallMemberService1"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "member",
+            "references": [],
+            "type": "MemberService"
+        }
+    ]
+}

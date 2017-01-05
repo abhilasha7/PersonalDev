@@ -1,0 +1,13 @@
+<apex:page controller="PracticePageController" renderAs="pdf">
+    <apex:form >
+        <apex:pageBlock id="block1" title="Practice">
+            <apex:commandButton value="First Name" action="{!printUserInfo}" reRender="block1"/><p></p>
+            <apex:commandLink value="Remove" action="{!removeUserInfo}" reRender="block1"/>
+            &nbsp;<apex:outputText value="{!u}" ></apex:outputText>
+        </apex:pageBlock>
+        <apex:pageBlock >
+            <p>{! IF ( CONTAINS('salesforce.com','force.com'), 'Yep', 'Nah') } </p>
+            <p>{! IF ( DAY(TODAY()) > 14, 'After the 14th', 'On or before the 14th') }</p>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

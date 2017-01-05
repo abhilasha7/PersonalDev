@@ -1,0 +1,23 @@
+<apex:page controller="SomeController">
+<apex:actionStatus id="myStatus" stopText="Done">
+    <apex:facet name="start">
+        <img src="/img/loading.gif" />    
+    </apex:facet>
+</apex:actionStatus>
+
+<apex:pageBlock >
+    <apex:form >
+        <apex:inputText value="{!q}">
+        <apex:actionSupport event="onkeypress" 
+            action="{!search}" 
+            rerender="thePageBlock" status="myStatus"/>
+        </apex:inputText>
+        <apex:commandButton action="{!search}" value="Search" reRender="thePageBlock" status="myStatus"/>    
+    </apex:form>
+</apex:pageBlock>
+<apex:pageBlock id="thePageBlock">
+    <apex:pageBlockTable value="{!listAccount}" var="acc">
+        <apex:column value="{!acc.name}"/> 
+    </apex:pageBlockTable>
+</apex:pageBlock>
+</apex:page>

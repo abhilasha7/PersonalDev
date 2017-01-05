@@ -1,0 +1,147 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000003hL9yAAE",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000003hL9yAAE",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 5
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getUsername",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 9
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "sayHello",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 14
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "setState",
+            "parameters": [
+                {
+                    "name": "n",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 18
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getState",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 22
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "methodOne",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        }
+    ],
+    "name": "actionFuncPageController",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 3
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "uname",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 26
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "state",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 2
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "actionFuncPageController",
+        "references": [],
+        "type": "actionFuncPageController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 14
+            },
+            "modifiers": [],
+            "name": "n",
+            "references": [],
+            "type": "String"
+        }
+    ]
+}

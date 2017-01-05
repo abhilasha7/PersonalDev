@@ -1,0 +1,47 @@
+<apex:page id="pageId" controller="myLoginController" sidebar="false" showheader="false">
+    <html>
+        <head>
+            <apex:includeScript value="{!URLFOR($Resource.jQuery, '/jquery-ui-1.10.4.custom/js/jquery-1.10.2.js')}"  />
+            <apex:includeScript value="{!URLFOR($Resource.jQuery, '/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.min.js')}"  />
+            <apex:stylesheet value="{!URLFOR($Resource.jQuery, '/jquery-ui-1.10.4.custom/css/ui-lightness/jquery-ui-1.10.4.custom.css')}"  />
+
+            <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"/> -->
+            <script type="text/javascript"> 
+                $j = jQuery.noConflict();
+
+                $j(document).ready(function(){
+                    $j('input[id$="animateBtn"]').click(function(){
+                        alert('hello');
+                        $j('[id$="text2"]').animate({left:'250px'});
+                    });
+                });
+            </script> 
+        </head>
+        <apex:form >
+           <apex:pageMessages />
+            <!-- <apex:pageMessage summary="This pageMessage will always display. Validation error 
+               messages appear in the pageMessages component." severity="warning" strength="3" />
+            <apex:pageMessages /> -->
+            <apex:outputPanel layout="block" id="panelId" style="border:10px">
+                <apex:panelGrid columns="2" style="margin-top:1em;">
+                    <apex:outputLabel value="Username" for="theUsername" id="label1"/>
+                    <apex:inputText id="username" value="{!username}"/>
+                    <apex:outputLabel value="Password" for="thePassword" id="label2"/>
+                    <apex:inputSecret id="password" value="{!password}" />
+                    <!-- <apex:outputText value=""/> -->
+                    <apex:commandButton value="Animate" id="animateButton" />
+                    <apex:commandButton action="{!login}" value="Login" id="loginButton"/>
+                    <apex:outputText value=""/>
+                    <apex:outputText value=""/>
+                    <apex:outputText value=""/>
+                </apex:panelGrid> 
+            </apex:outputPanel>
+            <!-- 
+            <div>
+                
+                <input type='button' id='animateBtn' value='Animate Text' />
+             -->   <apex:outputText id="text2" value="NAME"></apex:outputText>
+            <!-- </div> -->
+        </apex:form>
+    </html>
+</apex:page>

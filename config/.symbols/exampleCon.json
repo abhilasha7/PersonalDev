@@ -1,0 +1,158 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p90000000xqSOAAY",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p90000000xqSOAAY",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "methodOne",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 8
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getState",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 17
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getUsername",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 22
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "sayHello",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 28
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "incrementCounter",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 36
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getCount",
+            "parameters": [],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        }
+    ],
+    "name": "exampleCon",
+    "namespace": "zAbhi",
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 13
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "state",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 15
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "username",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 26
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "count",
+            "references": [],
+            "type": "Integer"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "exampleCon",
+        "references": [],
+        "type": "exampleCon"
+    },
+    "variables": []
+}

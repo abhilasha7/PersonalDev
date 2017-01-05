@@ -1,0 +1,21 @@
+<apex:page controller="BlogController" action="{!LoadBlogs}">
+<apex:form >
+    <apex:pageBlock id="Block1">
+        <apex:repeat value="{!Blogs}" var="blog">
+            <apex:pageBlockSection title="Blog Details">
+                <apex:outputField value="{!blog.Blogger_Name__c}"/>
+                <apex:outputField value="{!blog.Blog_Date__c}"/>
+                <apex:outputField value="{!blog.description__c}"/>
+            </apex:pageBlockSection>
+        </apex:repeat>
+    </apex:pageBlock>    
+    
+     <apex:pageBlock id="Block2">
+         <apex:pageblockSection >
+             <apex:inputField value="{!blog.Blogger_Name__c}"/>
+             <apex:inputField value="{!blog.description__c}"/>
+                 <apex:commandButton value="Save Blog" action="{!saveBlog}" reRender="Block1,Block2"/>
+         </apex:pageblockSection>
+     </apex:pageBlock>
+</apex:form>
+</apex:page>
